@@ -2,12 +2,12 @@
 #   The dayz
 module.exports = (robot) ->
     
-    robot.respond /swayze bomb (\d)?/i , (msg) ->
-        swayze_bomb(msg, msg.match[1])
-    
+    robot.respond /swayze bomb/i , (msg) ->
+        swayze_bomb(msg)
     
 
-    swayze_bomb = (n , msg) =>
+
+    swayze_bomb = (msg) =>
         swayzes = [
           "https://www.picsofcelebrities.com/celebrity/patrick-swayze/pictures/large/patrick-swayze-kids.jpg",
           "https://www.picsofcelebrities.com/celebrity/patrick-swayze/pictures/large/best-pictures-of-patrick-swayze.png",
@@ -15,9 +15,7 @@ module.exports = (robot) ->
           "https://www.picsofcelebrities.com/celebrity/patrick-swayze/pictures/large/patrick-swayze-net-worth.jpg",
           "https://www.picsofcelebrities.com/celebrity/patrick-swayze/pictures/large/patrick-swayze-scandal.jpg"
         ]
-
-        for x in n
-            msg.send swayzes[x]
+        msg.send swayze for swayze in swayzes 
 
     
     
