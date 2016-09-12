@@ -22,15 +22,15 @@ module.exports = (robot) ->
    	msg.send msg.random iceT	
 
 iceT = [
-  "http://i.onionstatic.com/avclub/5541/09/16x9/640.jpg",
-  "http://i.onionstatic.com/avclub/5541/10/16x9/640.jpg",
-  "http://i.onionstatic.com/avclub/5541/11/16x9/640.jpg",
-  "http://i.onionstatic.com/avclub/5541/13/16x9/640.jpg",
-  "http://i.onionstatic.com/avclub/5541/14/16x9/640.jpg",
-  "http://i.onionstatic.com/avclub/5541/15/16x9/640.jpg",
-  "http://i.onionstatic.com/avclub/5541/16/16x9/640.jpg",
-  "http://i.onionstatic.com/avclub/5541/17/16x9/640.jpg",
-  "http://i.onionstatic.com/avclub/5541/18/16x9/640.jpg",
-  "http://i.onionstatic.com/avclub/5541/19/16x9/640.jpg",
-  "http://i.onionstatic.com/avclub/5541/12/16x9/640.jpg",
+  "http://i.onionstatic.com/avclub/5542/09/original/640.jpg",
+  "http://i.onionstatic.com/avclub/5542/10/original/640.jpg",
+  "http://i.onionstatic.com/avclub/5542/11/original/640.jpg",
+  "http://i.onionstatic.com/avclub/5542/12/original/640.jpg",
+  "http://i.onionstatic.com/avclub/5542/13/original/640.jpg",
+  "http://i.onionstatic.com/avclub/5542/14/original/640.jpg",
+  "http://i.onionstatic.com/avclub/5542/15/original/640.jpg",
+  "http://i.onionstatic.com/avclub/5542/16/original/640.jpg",
+  "http://i.onionstatic.com/avclub/5542/17/original/640.jpg",
+  "http://i.onionstatic.com/avclub/5542/18/original/640.jpg",
+  "http://i.onionstatic.com/avclub/5542/19/original/640.jpg",
 ]
