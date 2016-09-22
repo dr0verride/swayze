@@ -1,5 +1,5 @@
 module.exports = (robot) ->
-   robot.here /(panda)?/i, (msg) ->
+   robot.hear /(panda)?/i, (msg) ->
         msg.send msg.random jobs
  jobs = [
  	"This what they all been waitin' for"
