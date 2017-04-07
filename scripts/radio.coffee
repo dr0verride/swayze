@@ -1,7 +1,7 @@
 # Description:
 #  Radio 
 module.exports = (robot) ->
-  robot.hear /(radio|what's playing)( me)?/i, (msg) ->
+  robot.hear /(^radio$|what's playing)( me)?/i, (msg) ->
    radio msg,  (url) ->
       msg.send url
 
